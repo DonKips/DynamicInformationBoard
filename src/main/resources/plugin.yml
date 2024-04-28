@@ -1,0 +1,10 @@
+name: DynamicInformationBoard
+version: '${project.version}'
+main: me.looks.dynamicinformationboard.DynamicInformationBoard
+api-version: '1.16'
+authors: [Looks]
+depend:
+  - ProtocolLib
+  - PlaceholderAPI
+commands:
+  dynamicinformationboard: {}
