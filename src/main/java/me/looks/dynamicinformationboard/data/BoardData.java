@@ -198,7 +198,7 @@ public class BoardData {
                 throw new RuntimeException(e);
             }
         } else {
-            image = new BufferedImage(128 * widthDimension, 128 * heightDimension, BufferedImage.TYPE_INT_ARGB);
+            image = new BufferedImage(128, 128, BufferedImage.TYPE_INT_ARGB);
         }
         return image;
     }
